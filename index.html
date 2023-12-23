@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/logo/360-393-max.jpg" type="image/x-icon">
+    <title>Alternative medical school</title>
+  </head>
+ 
+  <body class="vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <!-- Title -->
+        <img src="assets/logo/360-393-max.jpg" class="me-2" alt="Bootstrap" width="30" height="24">
+        <a class="navbar-brand fs-4" href="index.html">École Alternative Medical School</a>
+        <!-- Toggle Btn -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- SideBar -->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <!-- SideBar Header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">École Alternative Medical School</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- SideBar Body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Formations
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Licence.html">Licence</a></li>
+                    <li><a class="dropdown-item" href="Master.html">Master</a></li>
+                  </ul>
+                </li>
+        
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                <button class="btn btn-secondary" type="submit"><img src="assets/logo/search.svg" alt="search" width="30" height="24"></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <main>
+      <section class="w-100 min-height-100 d-flex flex-column justify-content-center align-items-center text-white fs-1">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="assets/image/ecolemedecine.jpg" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-light">École hôpital de Londres</h5>
+                <p class="text-light">Avec l'Alternative Medical School Formez-vous a la medecine de demain</p>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="assets/image/school.webp" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-light">Hôpital de New York</h5>
+                <p class="text-light">voici l'une de nos école a New York</p>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="assets/logo/360-393-max.jpg" class="d-block" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-dark">Logo</h5>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <video class="img-fluid" autoplay loop muted>
+                <source src="assets/video/rickroll.mp4" type="video/mp4" />
+              </video>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-light">Vidéo</h5>
+                <p class="text-light"></p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <hr>
+        <div class="police">
+        <div class="container">
+          <div class="welcome-banner bg-light text-center text-dark rounded py-2 mb-4">
+            <h3>Bienvenue a l'Alternative Medical School</h3>
+        </div>
+        
+        <div class="text-container">
+          <p class="lead">
+            Chers Parents, Nous sommes ravis de vous présenter l'Alternative Medical School, une école visionnaire qui offre des formations uniques en lithothérapie, magnétisme, et vaudouisme. Sous la direction du Professeur Didier Raoult, nos programmes de licence et de master sont conçus pour élargir les horizons de votre enfant dans le domaine des sciences énergétiques et spirituelles.
+          </p>
+          <p class="lead">
+            Nos directeurs de formation, M. Diany pour les licences et Mme. Thouzeau pour les masters, sont des experts chevronnés dans ces domaines, garantissant la qualité de l'enseignement. Votre enfant aura l'opportunité d'explorer les mystères de la lithothérapie, du magnétisme et du vaudouisme, tout en développant ses compétences personnelles et spirituelles.
+
+          </p>
+          <p class="lead">
+            L'Alternative Medical School valorise l'épanouissement personnel, la créativité et la recherche de soi. Nous croyons que l'éducation ne se limite pas à l'acquisition de connaissances académiques, mais inclut également la découverte de la spiritualité. Rejoignez-nous pour offrir à votre enfant une éducation unique et enrichissante, ouvrant la voie à une transformation personnelle et spirituelle.
+          </p>
+          <p class="lead">
+            L'Alternative Medical School, en tant qu'école privée, offre à vos enfants un environnement d'apprentissage exceptionnellement dédié à leur épanouissement personnel et académique. Cette approche personnalisée leur permet de se développer pleinement, d'explorer leur créativité et de se préparer à un avenir prometteur.
+          </p>
+          
+          <p class="lead">
+            En tant que sponsor, vous avez l'opportunité de soutenir une institution éducative unique qui transforme la vie de ses étudiants en les guidant vers une meilleure compréhension d'eux-mêmes, de leur environnement et du monde spirituel qui les entoure. Votre soutien contribuera à maintenir et à développer les programmes de qualité offerts par l'Alternative Medical School, permettant à un plus grand nombre d'étudiants de bénéficier de cette expérience exceptionnelle. Rejoignez-nous dans cette aventure inspirante et découvrez comment ensemble, nous pouvons faire la différence.
+          </p>
+          <p class="lead">
+            Sponsor:
+          </p>
+          <img class="sponsor" src="assets/image/Logo_BNP.jpg" alt="sponsor">
+          <img class="CA" src="assets/image/Logo_CA.png" alt="sposnor CA">
+          <img class="sponsor" src="assets/image/Logo_BanquePopulaire.png" alt="sponsor BP">
+      </div>
+      </div>
+    </div>
+      </section>
+    </main>
+    <br>
+    
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Tous droits réservés © 2023
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Calibri"; 
+    src: url("fonts/calibri.ttf");
+}
+body {
+    background: rgb(15, 15, 15);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.carousel-section .carousel-item {
+    position: relative;
+}
+
+.carousel-section .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.502);
+}
+
+.carousel-section .carousel-item:hover::before {
+    opacity: 0;
+}
+
+.carousel-section .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#container {
+    position: relative;
+    width: 50%;
+}
+
+#imageEcole {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.502);
+}
+
+#container:hover #overlay {
+    opacity: 1;
+}
+
+#textImage {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.carousel-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .carousel-banner h2 {
+    margin: 0;
+  }
+  .police{
+    font-family:Calibri;
+  }
+.sponsor{
+    margin: auto;
+    text-align: center;
+    height: 15%;
+    width: 15%;
+}
+
+.CA{
+    margin: auto;
+    height: 10%;
+    width: 12%;
+}
